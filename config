@@ -189,8 +189,8 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
-	position top
-	padding 2
+	#position top
+	#padding 2
 }
 
 # Gaps
@@ -201,6 +201,9 @@ default_border pixel 0
 
 # Wallpaper
 exec --no-startup-id feh --bg-fill ~/Imagens/operating-system-minimalism-archlinux-wallpaper-e910088d31da3dcb8677283fc021166d.jpg
+#exec --no-startup-id feh --bg-fill ~/Imagens/simple-background-blue-simple-minimalism-wallpaper-6f8cd2ff7d993518a77d9204a4f35000.jpg
+#exec --no-startup-id feh --bg-fill ~/Imagens/star-celestial-body-atmosphere-space-wallpaper-99d0f80d919acd2bd6a728af20a1663d.jpg
+#exec --no-startup-id feh --bg-fill ~/Imagens/texture-gradient-simple-background-blue-wallpaper-58568c5acfdc97f97ec049e292e9cbb0.jpg
 
 # Picom
 exec --no-startup-id picom -b
@@ -210,7 +213,7 @@ exec --no-startup-id xset s off
 exec --no-startup-id xset -dpms
 
 # Monitor
-exec --no-startup-id xrandr --output eDP-1 --off
+exec_always --no-startup-id ~/.config/i3/setup-monitor.sh
 
 ## Screenshots
 bindsym Print exec --no-startup-id maim "/home/$USER/Imagens/Screenshots/$(date)"
