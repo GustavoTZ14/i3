@@ -189,12 +189,12 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
-	#position top
-	#padding 2
+	position top
+	padding 2
 }
 
 # Gaps
-#gaps inner 8
+gaps inner 8
 
 # Border
 default_border pixel 0
