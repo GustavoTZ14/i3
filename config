@@ -194,7 +194,7 @@ bar {
 }
 
 # Gaps
-gaps inner 8
+#gaps inner 8
 
 # Border
 default_border pixel 0
