@@ -200,9 +200,9 @@ bar {
 default_border pixel 0
 
 # Wallpaper
-exec --no-startup-id feh --bg-fill ~/Imagens/operating-system-minimalism-archlinux-wallpaper-e910088d31da3dcb8677283fc021166d.jpg
+#exec --no-startup-id feh --bg-fill ~/Imagens/operating-system-minimalism-archlinux-wallpaper-e910088d31da3dcb8677283fc021166d.jpg
 #exec --no-startup-id feh --bg-fill ~/Imagens/simple-background-blue-simple-minimalism-wallpaper-6f8cd2ff7d993518a77d9204a4f35000.jpg
-#exec --no-startup-id feh --bg-fill ~/Imagens/star-celestial-body-atmosphere-space-wallpaper-99d0f80d919acd2bd6a728af20a1663d.jpg
+exec --no-startup-id feh --bg-fill ~/Imagens/star-celestial-body-atmosphere-space-wallpaper-99d0f80d919acd2bd6a728af20a1663d.jpg
 #exec --no-startup-id feh --bg-fill ~/Imagens/texture-gradient-simple-background-blue-wallpaper-58568c5acfdc97f97ec049e292e9cbb0.jpg
 
 # Picom
