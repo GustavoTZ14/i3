@@ -189,7 +189,7 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 	position top
-	padding 1
+	padding 2
 }
 
 # Gaps
